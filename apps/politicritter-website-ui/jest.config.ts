@@ -1,6 +1,6 @@
 export default {
   displayName: 'politicritter-website-ui',
-  preset: '../jest.preset.js',
+  preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   coverageDirectory: '../coverage/apps',
   transform: {
